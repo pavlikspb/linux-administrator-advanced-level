@@ -11,7 +11,7 @@ pavlikspb@test:~$ uname -r
 7.2.6-070206-generic
 
 #### Ход работы
-pavlikspb@test:~$ mkdir kernel && cd kernel
+'''pavlikspb@test:~$ mkdir kernel && cd kernel
 pavlikspb@test:~/kernel$ wget https://kernel.ubuntu.com/mainline/v7.2.6/amd64/linux-headers-7.2.6-070206-generic_7.2.6-070206.202609141300_amd64.deb
 --2026-10-06 08:17:24--  https://kernel.ubuntu.com/mainline/v7.2.6/amd64/linux-headers-7.2.6-070206-generic_7.2.6-070206.202609141300_amd64.deb
 Resolving kernel.ubuntu.com (kernel.ubuntu.com)... 185.125.189.74, 185.125.189.75, 185.125.189.76
@@ -139,7 +139,7 @@ Check GRUB_DISABLE_OS_PROBER documentation entry.
 Adding boot menu entry for UEFI Firmware Settings ...
 done
 pavlikspb@test:~/kernel$ sudo grub-set-default 0
-pavlikspb@test:~/kernel$ sudo reboot
+pavlikspb@test:~/kernel$ sudo reboot'''
 
 
 
