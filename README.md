@@ -2,15 +2,15 @@
 ## Администратор Linux. Продвинутый уровень
 ### Занятие 1. Обновление ядра системы
 
-#### Ядро до обновления
+#### Ядро до обновления:
 pavlikspb@test:~$ uname -r
 7.0.0-34-generic
 
-#### Ядро после обновления
+#### Ядро после обновления:
 pavlikspb@test:~$ uname -r
 7.2.6-070206-generic
 
-#### Ход работы
+#### Ход работы:
 ```pavlikspb@test:~$ mkdir kernel && cd kernel
 pavlikspb@test:~/kernel$ wget https://kernel.ubuntu.com/mainline/v7.2.6/amd64/linux-headers-7.2.6-070206-generic_7.2.6-070206.202609141300_amd64.deb
 --2026-10-06 08:17:24--  https://kernel.ubuntu.com/mainline/v7.2.6/amd64/linux-headers-7.2.6-070206-generic_7.2.6-070206.202609141300_amd64.deb
